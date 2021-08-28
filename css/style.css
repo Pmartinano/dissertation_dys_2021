@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html{
+    display: inline-block;
+    animation: fadeIn linear 0.5s;
+    -webkit-animation: fadeIn linear 0.5s;
+    -moz-animation: fadeIn linear 0.5s;
+    -o-animation: fadeIn linear 0.5s;
+    -ms-animation: fadeIn linear 0.5s;
+    overflow-x: hidden;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+  
+  @keyframes fadeIn{
+    0%{opacity:0;}
+    100%{opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn{
+    0%{opacity:0;}
+    100%{opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn{
+    0%{opacity:0;}
+    100%{opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn{
+    0%{opacity:0;}
+    100%{opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn{
+    0%{opacity:0;}
+    100%{opacity:1;}
+  }
+
+head{
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 8rem;
+}
+
+
+/*===================================
+
+TEXT
+
+===================================*/
+
+h1 {
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*===================================
+
+SCROLLBAR
+
+===================================*/
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+
+::-webkit-scrollbar-track{
+  background: #f8f8f8; 
+}
+
+::-webkit-scrollbar-thumb{
+  background: #f5f6f7;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #0f3351; 
+}
